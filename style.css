@@ -1,0 +1,33 @@
+/*
+ * file: style.css
+ * date: May 26, 2026
+ * author: Leah Steup
+ * description: changed margins, background color, h1 color and font, p color and font
+*/
+
+h1 {
+    font-family: "Lucida Sans", Arial, sans-serif;
+    color: rebeccapurple;
+}
+
+p {
+    color: black;
+    font-size: 16pt;
+}
+
+/*
+ * The style format for <ol> has no effect because index.html uses an unordered list.
+*/
+ol {
+    list-style: upper-roman;
+}
+
+body {
+    background-color: #ECDFEB;
+/*
+ * For my special CSS formatting item, I changed the left and right margins.
+ * I looked up this CSS rule on w3schools.org
+*/
+    margin-left: 40px;
+    margin-right: 40px;
+}
